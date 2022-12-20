@@ -1,0 +1,25 @@
+interface a
+{
+   void add();
+}
+interface b
+{
+  void sub();
+}
+class git implements interface a
+{
+   void add()
+{
+   System.out.println("hello");
+}
+void sub()
+{
+ System.out.println("github");
+}
+public static void main(String args[])
+{
+  git g=new git();
+  g.add();
+  g.sub();
+}
+}
